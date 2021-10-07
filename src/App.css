@@ -4,21 +4,25 @@
 
 @media(max-width:768px) {
   .App{
-    border-top: 1px solid 
+    border-top: 1px solid ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }.circle-nav{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 59px;
+    height: 59px;
     border: 1px solid black;
     border-radius: 50px 50px;
-    margin: 20px;
+    margin-top: 200px;
   }.line{
-    width: 60px;
+    width: 30px;
     display: flex;
     border: 1px solid black;
-    margin: 10px;
+    margin: 4px;
   }
 }
