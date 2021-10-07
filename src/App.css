@@ -14,15 +14,32 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 59px;
-    height: 59px;
-    border: 1px solid black;
-    border-radius: 50px 50px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 80px 80px;
     margin-top: 296px;
+    animation: move infinite 20s linear;
   }.line{
-    width: 30px;
+    width: 65px;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     border: 1px solid black;
     margin: 4px;
+    color: aliceblue;
+    background: black;
+    padding:10px;
+    border-radius: 50px 50px;
+  }
+}
+
+@keyframes move{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
